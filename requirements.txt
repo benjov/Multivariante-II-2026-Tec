@@ -1,0 +1,27 @@
+# Entorno de Python del curso de Análisis Multivariante
+# Instalación:  pip install -r requirements.txt
+# Probado con Python 3.10.
+
+# Base
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+plotly
+openpyxl            # lectura de archivos .xlsx
+
+# Estadística y aprendizaje automático
+statsmodels
+scikit-learn
+factor_analyzer     # cuadernos de 03 Factor Analysis (02 Divorce, 03 ENIGH)
+yellowbrick         # 05 Clustering/03 Clustering Customer
+
+# Series de tiempo (06 Clustering Time Series)
+tslearn
+minisom
+yfinance            # descarga de precios de la BMV
+
+# Utilidades
+requests
+jupyter

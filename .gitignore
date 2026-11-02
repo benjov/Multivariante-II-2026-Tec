@@ -1,0 +1,39 @@
+# .DS_Store
+.DS_Store
+
+*/.DS_Store/
+
+# Jupyter Checkpoints
+
+.ipynb_checkpoints
+
+*/.ipynb_checkpoints/
+
+.Rhistory
+
+*/.Rhistory/
+
+*/bert-base-uncased/
+
+*/facebook/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Keys
+#api_keys_all.py
+
+# Folders:
+
+#WebVisualizations/.DS-Store
+
+#DATA_COVID_19_OriginaGitHub/
+# Archivos que generan o descargan los cuadernos (no se versionan)
+concentradohogar.csv
+**/concentradohogar.csv
+03 Factor Analysis/01 Intro ENIGH/enigh2024_ns_concentradohogar_csv.zip
+06 Clustering Time Series/01 Prototipo/precios_5y.xlsx
+Data_embedding.csv
+df_pca_10.xlsx
+labels_*.csv
+__MACOSX/
