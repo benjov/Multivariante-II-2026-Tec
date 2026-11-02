@@ -32,11 +32,11 @@ Cada carpeta corresponde a un capítulo de las notas. El cuaderno marcado con �
 
 | Carpeta | Capítulo de las notas | Cuadernos |
 |---|---|---|
-| `01 Intro/` | 1. Fundamentos del análisis multivariante | ★ `03 Fundamentos/Fundamentos_Multivariante.ipynb` · `02 Aplicación de modelos clustering/` (k-medias con datos de COVID-19, se retoma en el cap. 5) |
+| `01 Intro/` | 1. Fundamentos del análisis multivariante | ★ `01 Fundamentos/Fundamentos_Multivariante.ipynb` |
 | `02 PCA/` | 2. Análisis de componentes principales | ★ `PCA_Paises.ipynb` · `Principal_Component_Analysis.ipynb` |
 | `03 Factor Analysis/` | 3. Análisis factorial | ★ `04 Entidades ENIGH/Factorial_Entidades_ENIGH.ipynb` · `01 Intro ENIGH/` · `02 Divorce/` · `03 ENIGH/` |
 | `04 Indices/` | 4. Construcción de índices compuestos | ★ `01 Indice ENIGH/Indice_Compuesto_ENIGH.ipynb` |
-| `05 Clustering/` | 5. Análisis de conglomerados | ★ `05 Tipologia Entidades/Tipologia_Entidades.ipynb` · `01 Intro Distancias/` · `02 Cluster Iris Data/` · `03 Clustering Customer/` · `04 Clustering Countries/` |
+| `05 Clustering/` | 5. Análisis de conglomerados | ★ `05 Tipologia Entidades/Tipologia_Entidades.ipynb` · `01 Intro Distancias/` · `02 Cluster Iris Data/` · `03 Clustering Customer/` · `04 Clustering Countries/` · `06 Clustering COVID/` (k-medias con datos de defunciones por COVID-19) |
 | `06 Clustering Time Series/` | 5. Análisis de conglomerados (series de tiempo) | `01 Prototipo/` (descarga de precios de la BMV) · `02 Clustering/` · `03_Unsupervised_Clusteing_Time_Series/` (precios marginales locales del Sistema Eléctrico Nacional) |
 | `07 Evaluaciones/` | — | `Practica_Python_plantilla.ipynb` (práctica de Python, entrega el domingo de la semana 3; colóquela en esta carpeta para que la ruta a los datos funcione) · `Trabajo_Final.pdf` (enunciado y rúbrica del trabajo final) |
 | `utils/` | — | `factorial.py`: análisis factorial en `numpy`/`scipy` (adecuación, estimación, rotación, puntuaciones) |
@@ -67,7 +67,7 @@ Los cuadernos leen sus datos con rutas relativas, así que deben abrirse desde s
 | `03 Factor Analysis/02 Divorce/divorce.csv` | Yöntem et al. (2019), *Divorce Predictors* |
 | `05 Clustering/02 Cluster Iris Data/IRIS.csv` | Fisher (1936), conjunto de datos Iris |
 | `05 Clustering/03 Clustering Customer/marketing_campaign.csv` | *Customer Personality Analysis* (Kaggle) |
-| `01 Intro/02 Aplicación de modelos clustering/` | Secretaría de Salud, datos abiertos de COVID-19 |
+| `05 Clustering/06 Clustering COVID/Defunciones_KM.csv` | Secretaría de Salud, datos abiertos de COVID-19 |
 | `06 Clustering Time Series/03_.../Datos_PML*.csv` | CENACE, precios marginales locales |
 | `06 Clustering Time Series/*/precios_5y.xlsx` | Yahoo Finance, emisoras de la BMV |
 
