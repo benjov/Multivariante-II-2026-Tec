@@ -1,27 +1,30 @@
 # Entorno de Python del curso de Análisis Multivariante
 # Instalación:  pip install -r requirements.txt
-# Probado con Python 3.10.
+# Probado con Python 3.10 y las versiones indicadas como mínimo.
 
 # Base
-numpy
-pandas
-scipy
-matplotlib
-seaborn
-plotly
-openpyxl            # lectura de archivos .xlsx
+numpy>=1.25
+pandas>=2.1
+scipy>=1.9
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.10
+openpyxl>=3.1          # lectura y escritura de archivos .xlsx
 
 # Estadística y aprendizaje automático
-statsmodels
-scikit-learn
-factor_analyzer     # cuadernos de 03 Factor Analysis (02 Divorce, 03 ENIGH)
-yellowbrick         # 05 Clustering/03 Clustering Customer
+statsmodels>=0.13
+scikit-learn>=1.7
+factor_analyzer>=0.5   # 03 Factor Analysis (02 Divorce, 03 ENIGH)
+yellowbrick>=1.5       # 05 Clustering/03 Clustering Customer
+kmedoids>=0.5          # k-medoides (ejercicios del capítulo 5)
+gower>=0.1             # distancia de Gower para datos mixtos (ejercicios del capítulo 5)
 
 # Series de tiempo (06 Clustering Time Series)
-tslearn
-minisom
-yfinance            # descarga de precios de la BMV
+tslearn>=0.6
+minisom>=2.3
+yfinance               # descarga de precios de la BMV (01 Prototipo)
 
 # Utilidades
-requests
+requests>=2.31
 jupyter
+nbformat>=5.3

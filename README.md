@@ -38,7 +38,7 @@ Cada carpeta corresponde a un capítulo de las notas. El cuaderno marcado con �
 | `04 Indices/` | 4. Construcción de índices compuestos | ★ `01 Indice ENIGH/Indice_Compuesto_ENIGH.ipynb` |
 | `05 Clustering/` | 5. Análisis de conglomerados | ★ `05 Tipologia Entidades/Tipologia_Entidades.ipynb` · `01 Intro Distancias/` · `02 Cluster Iris Data/` · `03 Clustering Customer/` · `04 Clustering Countries/` |
 | `06 Clustering Time Series/` | 5. Análisis de conglomerados (series de tiempo) | `01 Prototipo/` (descarga de precios de la BMV) · `02 Clustering/` · `03_Unsupervised_Clusteing_Time_Series/` (precios marginales locales del Sistema Eléctrico Nacional) |
-| `07 Evaluaciones/` | — | `Practica_Python_plantilla.ipynb` (práctica de la semana 2; colóquela en esta carpeta para que la ruta a los datos funcione) · `Trabajo_Final.pdf` (enunciado y rúbrica del trabajo final) |
+| `07 Evaluaciones/` | — | `Practica_Python_plantilla.ipynb` (práctica de Python, entrega el domingo de la semana 3; colóquela en esta carpeta para que la ruta a los datos funcione) · `Trabajo_Final.pdf` (enunciado y rúbrica del trabajo final) |
 | `utils/` | — | `factorial.py`: análisis factorial en `numpy`/`scipy` (adecuación, estimación, rotación, puntuaciones) |
 
 ### El hilo conductor: la ENIGH 2024
@@ -74,5 +74,7 @@ Los cuadernos leen sus datos con rutas relativas, así que deben abrirse desde s
 ## Licencia
 
 Las notas, los cuadernos y el código de este repositorio se dedican al dominio público bajo [CC0 1.0 Universal](LICENSE): pueden copiarse, modificarse y distribuirse, incluso con fines comerciales, sin pedir permiso. Citar la fuente es una buena práctica académica, aunque no es obligatorio.
+
+**Excepción: material de terceros.** El cuaderno `02 PCA/Principal_Component_Analysis.ipynb` adapta texto del *Python Data Science Handbook* de J. VanderPlas (texto con licencia CC BY-NC-ND 3.0 y código con licencia MIT), y `05 Clustering/03 Clustering Customer/customer_segmentation_clustering.ipynb` adapta un cuaderno público de Kaggle de Karnika Kapoor; ambos conservan las licencias de su fuente original y no están cubiertos por CC0.
 
 **Excepción: los datos de terceros.** Los conjuntos de datos de la sección *Datos* (INEGI, Secretaría de Salud, CENACE, Kaggle, Yahoo Finance y otros) no son obra de este repositorio y conservan los términos de uso de su fuente original.
