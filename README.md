@@ -63,7 +63,7 @@ Los cuadernos leen sus datos con rutas relativas, así que deben abrirse desde s
 | Archivo | Fuente |
 |---|---|
 | `03 Factor Analysis/*/enigh2024_ns_concentradohogar_csv.zip` | INEGI, Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2024, nueva serie, tabla `concentradohogar` |
-| `05 Clustering/04 Clustering Countries/Country-data.csv` | HELP International, *Unsupervised Learning on Country Data* (Kaggle) |
+| `05 Clustering/04 Clustering Countries/Country-data.csv` | R. Kokkula (2020), *Unsupervised Learning on Country Data*, Kaggle (licencia MIT; caso de la ONG HELP International) |
 | `03 Factor Analysis/02 Divorce/divorce.csv` | Yöntem et al. (2019), *Divorce Predictors* |
 | `05 Clustering/02 Cluster Iris Data/IRIS.csv` | Fisher (1936), conjunto de datos Iris |
 | `05 Clustering/03 Clustering Customer/marketing_campaign.csv` | *Customer Personality Analysis* (Kaggle) |
