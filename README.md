@@ -75,6 +75,6 @@ Los cuadernos leen sus datos con rutas relativas, así que deben abrirse desde s
 
 Las notas, los cuadernos y el código de este repositorio se dedican al dominio público bajo [CC0 1.0 Universal](LICENSE): pueden copiarse, modificarse y distribuirse, incluso con fines comerciales, sin pedir permiso. Citar la fuente es una buena práctica académica, aunque no es obligatorio.
 
-**Excepción: material de terceros.** El cuaderno `02 PCA/Principal_Component_Analysis.ipynb` adapta texto del *Python Data Science Handbook* de J. VanderPlas (texto con licencia CC BY-NC-ND 3.0 y código con licencia MIT), y `05 Clustering/03 Clustering Customer/customer_segmentation_clustering.ipynb` adapta un cuaderno público de Kaggle de Karnika Kapoor; ambos conservan las licencias de su fuente original y no están cubiertos por CC0.
+**Excepción: material de terceros.** El cuaderno `02 PCA/Principal_Component_Analysis.ipynb` reutiliza código del *Python Data Science Handbook* de J. VanderPlas (código con licencia MIT; el texto del cuaderno es original), y `05 Clustering/03 Clustering Customer/customer_segmentation_clustering.ipynb` adapta un cuaderno público de Kaggle de Karnika Kapoor; ese código y ese cuaderno conservan las licencias de su fuente original y no están cubiertos por CC0.
 
 **Excepción: los datos de terceros.** Los conjuntos de datos de la sección *Datos* (INEGI, Secretaría de Salud, CENACE, Kaggle, Yahoo Finance y otros) no son obra de este repositorio y conservan los términos de uso de su fuente original.
