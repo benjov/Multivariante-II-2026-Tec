@@ -38,7 +38,7 @@ Cada carpeta corresponde a un capítulo de las notas. El cuaderno marcado con �
 | `04 Indices/` | 4. Construcción de índices compuestos | ★ `01 Indice ENIGH/Indice_Compuesto_ENIGH.ipynb` |
 | `05 Clustering/` | 5. Análisis de conglomerados | ★ `05 Tipologia Entidades/Tipologia_Entidades.ipynb` · `01 Intro Distancias/` · `02 Cluster Iris Data/` · `03 Clustering Customer/` · `04 Clustering Countries/` · `06 Clustering COVID/` (k-medias con datos de defunciones por COVID-19) |
 | `06 Clustering Time Series/` | 5. Análisis de conglomerados (series de tiempo) | `01 Prototipo/` (descarga de precios de la BMV) · `02 Clustering/` · `03_Unsupervised_Clusteing_Time_Series/` (precios marginales locales del Sistema Eléctrico Nacional) |
-| `07 Evaluaciones/` | — | `Practica_Python_plantilla.ipynb` (práctica de Python, entrega el domingo de la semana 3; colóquela en esta carpeta para que la ruta a los datos funcione) · `Trabajo_Final.pdf` (enunciado y rúbrica del trabajo final) |
+| `07 Evaluaciones/` | — | `Practica_Python_plantilla.ipynb` (práctica de Python con datos personalizados por matrícula, entrega el domingo de la semana 3; funciona en esta carpeta o en Colab) · `Trabajo_Final.pdf` (enunciado y rúbrica del trabajo final) |
 | `utils/` | — | `factorial.py`: análisis factorial en `numpy`/`scipy` (adecuación, estimación, rotación, puntuaciones) |
 
 ### El hilo conductor: la ENIGH 2024
